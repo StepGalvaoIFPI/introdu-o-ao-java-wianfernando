@@ -12,8 +12,8 @@ public class Q2 {
         double area = (altura * largura);
         double perimetro = (2 * altura + 2 * largura);
 
-        System.out.println("Area =" +area+ "");
-        System.out.println("perimetro =" +perimetro+ "");
+        System.out.println("Area =" +area);
+        System.out.println("perimetro =" +perimetro);
 
         entrada.close();
     }
