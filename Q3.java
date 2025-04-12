@@ -10,8 +10,8 @@ public class Q3 {
         double area = (pi * raio * raio);
         double comprimento = (2 * pi * raio);
 
-        System.out.println("Area = " +area+ "");
-        System.out.println("Comprimento = " +comprimento+ "");
+        System.out.println("Area = " +area);
+        System.out.println("Comprimento = " +comprimento);
 
         entrada.close();
     }
