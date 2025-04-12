@@ -5,13 +5,13 @@ public class Q1{
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Digite a altura:");
-        double altura = Double.valueOf(entrada.nextDouble());
+        double altura = Integer.valueOf(entrada.nextLine());
 
         System.out.println("Digite a base:");
-        double base = Double.valueOf(entrada.nextDouble());
+        double base = Integer.valueOf(entrada.nextLine());
 
         double area = (base * altura)/2;
-        System.out.println("Area = "+area+"");
+        System.out.println(area);
 
         entrada.close();
     }
